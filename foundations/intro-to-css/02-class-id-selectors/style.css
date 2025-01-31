@@ -5,17 +5,16 @@
     font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
 }
 
+.font-selector {
+    font-size: 24px;
+}
+
 #second {
     color: rgb(0,0,255);
     font-size: 36px;
 }
 
-#third {
-    font-size: 24px;
-}
-
 #fourth {
     background-color: hsl(120,73%,75%);
-    font-size: 24px;
     font-weight: 1000;
 }
