@@ -26,6 +26,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  flex: 0 1 0;
 }
 
 ul {
@@ -34,6 +35,11 @@ ul {
   display: flex;
   margin: 0.5em;
   padding: 0.5em;
+}
+
+.left-links li,
+.right-links li {
+  
 }
 
 a {
