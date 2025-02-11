@@ -13,8 +13,13 @@ img {
   text-align: center;
 }
 
+.text {
+  text-align: center;
+}
+
 .flex {
   display: flex;
+  padding: 30px;
 }
 
 .flex-col {
