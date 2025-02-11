@@ -54,4 +54,5 @@ ul {
 .left-nav,
 .right-nav {
   display: flex;
+  align-items: center;
 }
