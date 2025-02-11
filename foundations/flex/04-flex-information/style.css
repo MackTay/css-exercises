@@ -20,12 +20,14 @@ img {
 .flex {
   display: flex;
   padding: 30px;
+  gap: 20px;
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 
 /* do not edit this footer */
