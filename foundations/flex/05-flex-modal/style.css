@@ -22,6 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   padding: 15px;
+  gap: 15px;
 }
 
 .icon {
@@ -36,13 +37,16 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  margin-right: 15px;
 }
 
 .header {
-  font-weight: 1000;
-  align-self: center;
+  display: flex;
+  font-weight: bold;
   font-size: 20px;
+}
+
+.text {
+  margin: 10px 0;
 }
 
 .close-button {
@@ -56,17 +60,6 @@ body {
   border: 1px solid #eee;
   padding: 0;
   margin-left: auto;
-}
-
-.same-line {
-  display: flex;
-  gap: 5px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
 }
 
 button {
