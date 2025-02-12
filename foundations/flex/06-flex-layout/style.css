@@ -41,6 +41,11 @@ a {
   display: flex;
 }
 
+.header,
+.footer {
+  justify-content: space-between;
+}
+
 .left-links,
 .right-links {
   gap: 10px;
