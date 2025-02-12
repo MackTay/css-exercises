@@ -21,7 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  padding: 0.5em;
+  padding: 15px;
 }
 
 .icon {
@@ -36,6 +36,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin-right: 15px;
 }
 
 .header {
@@ -59,12 +60,13 @@ body {
 
 .same-line {
   display: flex;
+  gap: 5px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
 }
 
 button {
