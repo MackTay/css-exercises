@@ -60,3 +60,7 @@ a {
 .right-links {
   gap: 10px;
 }
+
+.footer {
+  background-color: whitesmoke;
+}
