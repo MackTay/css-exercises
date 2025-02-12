@@ -33,3 +33,15 @@ a {
   text-decoration: none;
   color: gray;
 }
+
+.header,
+.footer,
+.left-links,
+.right-links {
+  display: flex;
+}
+
+.left-links,
+.right-links {
+  gap: 10px;
+}
