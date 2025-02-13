@@ -36,6 +36,10 @@ a {
   color: gray;
 }
 
+button {
+  padding: 8px 16px;
+}
+
 .header,
 .footer,
 .left-links,
@@ -49,16 +53,20 @@ a {
   align-items: center;
   justify-content: center;
   margin: auto;
+  gap: 15px;
 }
 
 .header,
 .footer {
   justify-content: space-between;
+  padding: 20px;
 }
 
 .left-links,
 .right-links {
   gap: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer {
